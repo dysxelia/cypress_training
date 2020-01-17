@@ -48,17 +48,17 @@ That's it, you have successfully installed Git on your Ubuntu and you can start 
 
 # Download and use this repo AFTER all of the above is installed
 1) Create a 'repos' folder wherever is convinient for you (I recommend having it somwhere like .../Documents/repos)
-2) Open a new terminal / WSL instance and navigate to that folder
+2) Open a new terminal and navigate to that folder
 3) Run the following command: 
     <pre><code>git clone https://github.com/OjelaNape/cypress_training.git</code></pre>
 4) Open Visual Studio Code, go to Files -> Open folder -> Search and open "cypress_training" 
-6) In your terminal (either Visual Studio's or WSL / Linux terminal) run: 
+6) In your terminal run: 
     <pre><code>git checkout marian</code></pre>
     <pre><code>git checkout caro</code></pre>
     <pre><code>git checkout djurdja</code></pre>
     <pre><code>git checkout adrian</code></pre>
 > This will get your own branch to keep the code separate, but share one common base to install dependencies and plugins. Now that you have your code in your computer with your own branch to go nuts, lets install all the dependencies.
-7) In your terminal (either Visual Studio's or WSL / Linux terminal) run: <code>yarn</code> (Yeah, just that, nothing else)
+7) In your terminal run: <code>yarn</code> (Yeah, just that, nothing else)
 8) Wait until done
 9) In your terminal, run: <code>yarn cypress open</code>
 > IF no errors come up, you are golden.
