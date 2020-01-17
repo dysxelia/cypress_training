@@ -16,7 +16,7 @@
 We are going to use nvm, which is a version manager for node, makes it easier to mantain the node version.
 1) Instal nvm, with: 
 <code>curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | bash</code>
-2) To verify installation, enter <code>command -v nvm</code> ...this should return <code>'nvm'</code>, if you receive <code>'command not found'</code> or no response at all, close your current terminal, reopen it, and try again.
+2) To verify installation, enter command<code>nvm --version</code> ...this should return something like<code>'0.33.3'</code>, if you receive <code>'command not found'</code> or no response at all, close your current terminal, reopen it, and try again.
 3) Install latest v10 version of Node.js (recommended for NGA): <code>nvm install 10</code>
 4) Verify that Node.js is installed and the currently default version with: <code>node --version</code>. Then verify that you have npm as well, with: <code>npm --version</code>
 
