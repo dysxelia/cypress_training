@@ -5,5 +5,8 @@
   "main": "index.js",
   "author": "Alejo Pane <alejo.pane@learnlight.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "devDependencies": {
+    "cypress": "^3.8.2"
+  }
 }
