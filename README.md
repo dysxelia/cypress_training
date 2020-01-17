@@ -20,6 +20,9 @@ We are going to use nvm, which is a version manager for node, makes it easier to
 3) Install latest v10 version of Node.js (recommended for NGA): <code>nvm install 10</code>
 4) Verify that Node.js is installed and the currently default version with: <code>node --version</code>. Then verify that you have npm as well, with: <code>npm --version</code>
 
+## Install node.js in Windows:
+Donwload and install from: https://nodejs.org/en/download/
+
 ## Install yarn in WSL / Linux
 1) Add the repository to your installation:
     <pre>
@@ -28,6 +31,9 @@ We are going to use nvm, which is a version manager for node, makes it easier to
     <code>echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list</code></pre>
 2) Update and install yarn
 <pre><code>sudo apt update && sudo apt install --no-install-recommends yarn</code></pre>
+
+## Install yarn in Windows:
+Donwload and install from: https://yarnpkg.com/lang/en/docs/install/#windows-stable
 
 ## Install GIT in WSL / Linux
 1) Start by updating the package index:
