@@ -9,6 +9,7 @@
 1. Node.js
 2. yarn
 3. git
+4. Visual Studio Code: https://code.visualstudio.com/
 
 
 ## Install node.js in WSL / Linux:
@@ -37,3 +38,11 @@ We are going to use nvm, which is a version manager for node, makes it easier to
 <code>git --version</code>
 
 That's it, you have successfully installed Git on your Ubuntu and you can start using it.
+
+
+# Download and use this repo AFTER all of the above is installed
+1) Create a 'repos' folder wherever is convinient for you (I recommend having it somwhere like .../Documents/repos)
+2) Open a new terminal / WSL instance and navigate to that folder
+3) Run the following command: 
+    <pre><code>git clone https://github.com/OjelaNape/cypress_training.git</code></pre>
+That's it, open Visual Studio Code, go to Files -> Open folder -> Search and open "cypress_training" folder
