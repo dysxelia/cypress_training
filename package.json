@@ -1,0 +1,9 @@
+{
+  "name": "cypress_training",
+  "version": "1",
+  "description": "cypress training repo",
+  "main": "index.js",
+  "author": "Alejo Pane <alejo.pane@learnlight.com>",
+  "license": "MIT",
+  "private": false
+}
